@@ -17,7 +17,6 @@
   padding: 0;
 }
 body {
-  text-align: center;
   font-family: var(--main-font);
 }
 h1 {
@@ -43,6 +42,7 @@ main {
   display: block;
   margin: 0 auto;
   padding: 0 20px;
+  text-align: center;
   border-radius: 0 0 32px 32px;
   background-color: var(--main-bg-light);
   background: linear-gradient(
@@ -68,6 +68,9 @@ p:nth-child(4),
 h3 .results {
   color: hsl(241, 100%, 89%);
 }
+section {
+  margin: 0 32px;
+}
 .circle {
   display: block;
   margin: 24px auto;
@@ -82,6 +85,24 @@ h3 .results {
   );
 }
 
+.btn {
+  display: block;
+  margin: 24px auto;
+  padding: 18px;
+  border-radius: 128px;
+  text-align: center;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+}
+/*The columns are not lining up in the row. 
+Issues with background-color! */
+/* .summary-results {
+  margin: 24px 0 0;
+  display: block;
+}
+div.col-5 {
+  text-align: right !important;
+} */
 @media (min-width: 1440px) {
   h1 {
     font-size: 72px;
