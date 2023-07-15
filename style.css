@@ -77,7 +77,7 @@ h3 .results {
   background-color: var(--circle-gradient-persion);
   background: linear-gradient(
     0deg,
-    var(--circle-gradient-persion) 10%,
+    var(--circle-gradient-persion) 0%,
     var(--circle-gradient-violet) 100%
   );
 }
