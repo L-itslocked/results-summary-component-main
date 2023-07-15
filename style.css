@@ -12,7 +12,7 @@
   --Dark-gray-blue: hsl(224, 30%, 27%);
   --main-font: "Hanken Grotesk", sans-serif;
 }
-#2e2be9 * {
+* {
   margin: 0;
   padding: 0;
 }
@@ -23,15 +23,17 @@ body {
 h1 {
   font-size: 56px;
   font-weight: 800;
+  padding: 24px 0;
 }
 h2 {
   font-size: 24px;
   font-weight: 700;
+  margin: 0 0 8px;
 }
 h3 {
   font-size: 18px;
   font-weight: 700;
-  padding: 24px;
+  padding: 24px 0 0;
 }
 p {
   font-size: 16px;
@@ -52,10 +54,10 @@ main {
 }
 p:first-child {
   display: block;
-  /*adjust the HTML collums*/
+  /* adjust the HTML columns */
 }
 p:nth-child(2) {
-  margin: -40px 0 0;
+  margin: -26px 0 24px;
 }
 p:nth-child(4) {
   margin: 0 30px;
@@ -66,6 +68,20 @@ p:nth-child(4),
 h3 .results {
   color: hsl(241, 100%, 89%);
 }
+.circle {
+  display: block;
+  margin: 24px auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: var(--circle-gradient-persion);
+  background: linear-gradient(
+    0deg,
+    var(--circle-gradient-persion) 10%,
+    var(--circle-gradient-violet) 100%
+  );
+}
+
 @media (min-width: 1440px) {
   h1 {
     font-size: 72px;
