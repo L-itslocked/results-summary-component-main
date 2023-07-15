@@ -37,7 +37,14 @@ h3 {
   font-size: 18px;
   font-weight: 700;
 }
-
+main {
+  background-color: var(--main-bg-light);
+  background: linear-gradient(
+    0deg,
+    var(--main-bg-light) 25%,
+    var(--main-bg-dark) 100%
+  );
+}
 @media (min-width: 1440px) {
   h1 {
     font-size: 72px;
