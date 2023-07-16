@@ -28,13 +28,16 @@ Users should be able to:
 
 ### Screenshot
 
+Mobile-view:
 ![](./screenshot.png)
+
+Desktop-view:
 ![](./screenshot-desktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://tubular-syrniki-8a0018.netlify.app/](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/results-summary-component-G2cNvP1hP1)
+- Live Site URL: [Results Summary Component](https://tubular-syrniki-8a0018.netlify.app/)
 
 ## My process
 
