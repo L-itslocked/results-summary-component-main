@@ -5,12 +5,14 @@
   --circle-gradient-persion: hsla(241, 72%, 46%, 0);
   --main-font: "Hanken Grotesk", sans-serif;
 }
-/* * {
+* {
   margin: 0;
   padding: 0;
-} */
+}
+
 body {
   font-family: var(--main-font);
+  max-width: 100%;
 }
 h1 {
   font-size: 56px;
@@ -28,7 +30,7 @@ h3 {
   padding: 24px 0 0;
 }
 h3.summary {
-  margin-bottom: 24px !important;
+  margin-bottom: 24px;
 }
 p {
   font-size: 16px;
@@ -47,11 +49,9 @@ main {
     var(--main-bg-dark) 100%
   );
   color: hsl(0, 0%, 100%);
+  max-width: 100%;
 }
-p:first-child {
-  display: block;
-  /* adjust the HTML columns */
-}
+
 p:nth-child(2) {
   margin: -26px 0 24px;
 }
@@ -61,7 +61,7 @@ p:nth-child(4) {
 }
 p:nth-child(2),
 p:nth-child(4),
-h3 .results {
+h3.result {
   color: hsl(241, 100%, 89%);
 }
 section {
@@ -73,6 +73,11 @@ span {
 }
 img {
   margin-right: 12px;
+}
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 .circle {
   display: block;
@@ -88,16 +93,13 @@ img {
   );
 }
 .btn {
-  display: block;
-  margin: 24px auto;
-  padding: 18px;
+  margin: 24px -10px;
+  padding: 17px 0;
   border-radius: 128px;
   text-align: center;
   background-color: hsl(224, 30%, 27%);
   color: white;
-  align-items: center;
-  justify-content: center;
-  width: 88vw;
+  width: 100%;
 }
 .btn:hover {
   background-color: var(--main-bg-light);
@@ -106,20 +108,22 @@ img {
     var(--main-bg-light) 25%,
     var(--main-bg-dark) 100%
   );
+  color: hsl(0, 0%, 100%);
   cursor: pointer;
 }
 .summary-results {
-  margin: 0 0 16px 0;
-  padding: 5px 0;
-  align-items: center;
+  margin-bottom: 16px;
+  padding: 15px 0 0;
   border-radius: 12px;
-  width: 80vw;
+  max-width: 100%;
+  align-content: center;
 }
 div.col-5 {
   text-align: right;
 }
 div.col-5 p {
   color: hsl(224, 30%, 27%);
+  word-spacing: 8px;
 }
 
 #reaction {
@@ -140,17 +144,36 @@ div.col-5 p {
   background-color: hsla(234, 85%, 45%, 0.05);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   h1 {
     font-size: 72px;
   }
   h2 {
     font-size: 32px;
+    margin: 28px 0 19px;
   }
   h3 {
     font-size: 24px;
   }
   p {
     font-size: 18px;
+  }
+  main {
+    border-radius: 32px;
+  }
+  h3.summary {
+    margin-bottom: 28px;
+    padding-top: 38px;
+  }
+  h3.result {
+    padding: 38px 0 35px;
+  }
+  p.main-info {
+    padding-bottom: 65px;
+  }
+}
+@media (min-width: 1400px) {
+  p.main-info {
+    margin: 0 175px 0 175px;
   }
 }
