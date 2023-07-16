@@ -94,6 +94,15 @@ section {
   background-color: hsl(224, 30%, 27%);
   color: white;
 }
+.btn:hover {
+  background-color: var(--main-bg-light);
+  background: linear-gradient(
+    0deg,
+    var(--main-bg-light) 25%,
+    var(--main-bg-dark) 100%
+  );
+  cursor: pointer;
+}
 /*The columns are not lining up in the row. 
 Issues with background-color! */
 /* .summary-results {
