@@ -33,6 +33,7 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        margin-top: 35px;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -41,91 +42,92 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="row">
-      <div class="col-md-6">
-        <main>
-          <div>
-            <h3 class="results">Your Result</h3>
-          </div>
-          <div class="circle">
+    <div class="container">
+      <div class="row" id="main-row">
+        <div class="col-lg-6">
+          <main>
+            <h3 class="result">Your Result</h3>
+            <div class="circle">
+              <div>
+                <h1>76</h1>
+              </div>
+              <p>of 100</p>
+            </div>
             <div>
-              <h1>76</h1>
+              <h2>Great</h2>
             </div>
-            <p>of 100</p>
-          </div>
-          <div>
-            <h2>Great</h2>
-          </div>
-          <p class="main-info">
-            You scored higher than 65% of the people who have taken these tests.
-          </p>
-        </main>
-      </div>
-      <!--second column-->
-      <section>
-        <div class="col-md-6">
-          <h3 class="summary">Summary</h3>
-          <div id="reaction" class="row summary-results d-flex">
-            <div class="col-7">
-              <p>
-                <img src="assets/images/icon-reaction.svg" />
-                Reaction
-              </p>
-            </div>
-            <div class="col-5">
-              <p>80 <span> / 100</span></p>
-            </div>
-          </div>
-          <div id="memory" class="row summary-results d-flex memory">
-            <div class="col-7">
-              <p>
-                <img src="assets/images/icon-memory.svg" />
-                Memory
-              </p>
-            </div>
-            <div class="col-5">
-              <p>92 <span>/ 100</span></p>
-            </div>
-          </div>
-          <div id="verbal" class="row summary-results d-flex verbal">
-            <div class="col-7">
-              <p>
-                <img src="assets/images/icon-verbal.svg" />
-                Verbal
-              </p>
-            </div>
-            <div class="col-5">
-              <p>61 <span>/ 100</span></p>
-            </div>
-          </div>
-          <div id="visual" class="row summary-results d-flex visual">
-            <div class="col-7">
-              <p>
-                <img src="assets/images/icon-visual.svg" />
-                Visual
-              </p>
-            </div>
-            <div class="col-5">
-              <p>72 <span>/ 100</span></p>
-            </div>
-          </div>
-          <div class="btn">Continue</div>
+            <p class="main-info">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </main>
         </div>
-      </section>
-      <!--second column-->
+        <!--second column-->
+        <div class="col-lg-6">
+          <section>
+            <h3 class="summary">Summary</h3>
+            <div id="reaction" class="row summary-results d-flex">
+              <div class="col-7">
+                <p>
+                  <img src="assets/images/icon-reaction.svg" />
+                  Reaction
+                </p>
+              </div>
+              <div class="col-5">
+                <p>80 <span> / 100</span></p>
+              </div>
+            </div>
+            <div id="memory" class="row summary-results d-flex memory">
+              <div class="col-7">
+                <p>
+                  <img src="assets/images/icon-memory.svg" />
+                  Memory
+                </p>
+              </div>
+              <div class="col-5">
+                <p>92 <span>/ 100</span></p>
+              </div>
+            </div>
+            <div id="verbal" class="row summary-results d-flex verbal">
+              <div class="col-7">
+                <p>
+                  <img src="assets/images/icon-verbal.svg" />
+                  Verbal
+                </p>
+              </div>
+              <div class="col-5">
+                <p>61 <span>/ 100</span></p>
+              </div>
+            </div>
+            <div id="visual" class="row summary-results d-flex visual">
+              <div class="col-7">
+                <p>
+                  <img src="assets/images/icon-visual.svg" />
+                  Visual
+                </p>
+              </div>
+              <div class="col-5">
+                <p>72 <span>/ 100</span></p>
+              </div>
+            </div>
+            <div class="btn">Continue</div>
+          </section>
+        </div>
+      </div>
     </div>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by by
-      <a
-        href="https://github.com/L-itslocked/results-summary-component-main"
-        target="_blank"
-        title="Github"
-        >Laura Doyon</a
-      >.
-    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by by
+        <a
+          href="https://github.com/L-itslocked/results-summary-component-main"
+          target="_blank"
+          title="Github"
+          >Laura Doyon</a
+        >.
+      </div>
+    </footer>
   </body>
 </html>
