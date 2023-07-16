@@ -152,7 +152,9 @@ div.col-5 p {
 @media (min-width: 768px) {
   body {
     padding: 30px 0;
-    margin: 0 5%;
+    margin: 0 auto;
+    width: 736px;
+    height: auto;
   }
   h1 {
     font-size: 72px;
@@ -182,10 +184,5 @@ div.col-5 p {
   }
   .container {
     box-shadow: 10px 5px 5px hsla(0, 0%, 0%, 0.271);
-  }
-}
-@media (min-width: 1400px) {
-  p.main-info {
-    margin: 0 175px 0 175px;
   }
 }
