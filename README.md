@@ -28,10 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-Mobile-view:
+Mobile-view
+
 ![](./screenshot.png)
 
-Desktop-view:
+Desktop-view
+
 ![](./screenshot-desktop.png)
 
 ### Links
